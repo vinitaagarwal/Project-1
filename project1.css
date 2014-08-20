@@ -1,0 +1,85 @@
+@font-face{
+  font-family: Helvetica Neue;
+  src: url(HelveticaNeue-Light.otf)
+}
+
+@font-face{
+  font-family: Helvetica-Neue2;
+  src: url(HelveticaNeue-UltraLight.otf)
+}
+
+body{
+  font-family: Helvetica Neue;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 100;
+  color: #1C1C1C;
+  text-align: center;
+  margin: 120px auto 30px;
+}
+
+#smiley1{
+  width: 100px;
+  height: 100px;
+}
+
+#smiley2{
+  width: 110px;
+  height: 110px;
+}
+
+.smiley_container{
+  margin: 30px 300px 0 300px;
+}
+
+.smiley{
+  display: inline-block;
+  margin: 60px 35px 0 35px;
+}
+
+.pick_me{
+  margin: 30px 295px 0 295px;
+  font-size: 22px;
+  font-weight: 200;
+  color: white;
+}
+
+.button{
+  width: 110px;
+  height: 35px;
+  border: #A4A4A4 2px solid;
+  border-radius: 5px;
+  background-color: #A4A4A4;
+  display: inline-block;
+  text-align: center;
+  padding: 5px 10px 0px 10px;
+  margin: 0px 20px;
+ }
+
+.tag_container{
+  color: black;
+  margin: 5px 298px;
+  
+}
+
+.tag{
+  display: inline-block;
+  margin: 0px 25px 0 25px;
+  text-align: center;
+  width: 125px;
+  font-family: Helvetica Neue;
+  font-weight: 100;
+  font-size: 18px;
+}
+
+a:hover{
+color: black;
+text-decoration: none;
+}
+
+a:visited {
+color: white;
+text-decoration: none;
+}

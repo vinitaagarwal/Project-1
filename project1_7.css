@@ -1,0 +1,65 @@
+@font-face{
+  font-family: Helvetica Neue;
+  src: url(HelveticaNeue-Light.otf)
+}
+
+@font-face{
+  font-family: Helvetica-Neue2;
+  src: url(HelveticaNeue-UltraLight.otf)
+}
+
+body{
+  background-color: purple;
+  font-family: Helvetica Neue;
+}
+
+h1{
+  font-size: 80px;
+  font-weight: 100;
+  color: black;
+  text-align: center;
+  margin: 80px auto 0px;
+}
+
+img{
+  width: 120px;
+  height: 120px;
+  margin: 30px 610px 0 610px;
+}
+
+.columns{
+  margin: 30px 160px;
+}
+.col1{
+  text-align: center;
+  font-size: 16px;
+  color: black;
+  display: inline-block;
+  width: 400px;
+  margin: 50px;
+}
+
+#button{
+  width: 250px;
+  height: 35px;
+  border: #BDBDBD 2px solid;
+  border-radius: 5px;
+  background-color: #BDBDBD;
+  display: inline-block;
+  text-align: center;
+  padding: 9px 10px 0px 10px;
+  margin: 30px;
+  font-size: 18px;
+  font-weight: 700;
+  color: black;
+ }
+
+a:visited{
+  color: black;
+}
+
+.columns{
+  display: inline-block
+  width: 700px
+  margin: 0 
+}
